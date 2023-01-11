@@ -70,6 +70,7 @@ public class Task_1_VerifyUser {
 		  bp = new BusinessDetailsProfile(driver) ;
 		  fi = new FormInterview (driver);
 		  
+		  
 		  tf = new TaxYearForm(driver);
 		  tp = new TentativeTaxandPayments(driver);
 		  sf = new SummaryForm(driver);
