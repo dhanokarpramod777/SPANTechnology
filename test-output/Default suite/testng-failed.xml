@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="Test_Clasess.Task_1_VerifyUser">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="VerifyUser_LoginBack"/>
+          <include name="afterClass"/>
+          <include name="VerifyUserLogOutUser"/>
+          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- Test_Clasess.Task_1_VerifyUser -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
