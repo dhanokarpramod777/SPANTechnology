@@ -56,6 +56,10 @@ public class Task_2_VerifyUser {
   public void VerifyUserLogin() throws IOException {
 	  lp.EmailID1();
 	  lp.Password();
+	  
+	  
+	  
+	  
 	  lp.SignUP(); 
   }
 
