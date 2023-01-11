@@ -81,6 +81,8 @@ public class Task_2_VerifyUser {
   } 
 @AfterClass
 public void afterClass() {
+	System.out.println("Code is work good");
+	
   report.flush();
   driver.quit();  
 }
