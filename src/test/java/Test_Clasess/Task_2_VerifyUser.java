@@ -89,5 +89,6 @@ public void afterClass() {
 	
   report.flush();
   driver.quit();  
+  
 }
 }
