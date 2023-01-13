@@ -56,6 +56,10 @@ public class Task_2_VerifyUser {
   public void VerifyUserLogin() throws IOException {
 	  lp.EmailID1();
 	  lp.Password();
+	  
+	  
+	  
+	  
 	  lp.SignUP(); 
   }
 
@@ -81,7 +85,10 @@ public class Task_2_VerifyUser {
   } 
 @AfterClass
 public void afterClass() {
+	System.out.println("Code is work good");
+	
   report.flush();
   driver.quit();  
+  
 }
 }
